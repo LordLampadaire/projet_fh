@@ -5,7 +5,25 @@
     <title>index</title>
 </head>
 <body>
-    <h1>TEST</h1>
+    <h1>TEST</h1><table >
+        <thead>
+        <tr>
+            <th><abbr title="ID">ID</abbr></th>
+            <th>Nom</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for faction in Faction %}
+        <tr>
+            <th><a href="/fh/read/{{faction.id}}/">{{faction.id}}</th>
+            <td>{{faction.Nom}}</td>
+            <td><a href="/fh/details/{{faction.id}}/">Détails</a><td>
+            <td><a href="/fh/update/{{faction.id}}/">Modifier</a><td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <li><a href="http://127.0.0.1:8000/fh/ajout/">ajouter une faction </a></li>
 
 </body>
 </html>
