@@ -24,11 +24,11 @@ def traitement(request):
         faction = fform.save()
         return render(request,"fh/index.html",{"nom" : faction})
     else:
-        return  render(request,"fh/ajoute.html",{"form": fform})
+        return render(request,"fh/ajoute.html",{"form": fform})
 
 def read(request, id):
     faction = models.Faction.objects.get(pk=id)
-    return render(request,"crud/details.html",{"nom": faction})
+    return render(request,"fh/details.html",{"nom": faction})
 
 def show(request):
     return render(request,"fh/index.html",{"nom" : models.Faction.objects.all() })
