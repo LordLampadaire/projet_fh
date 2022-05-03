@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from django.db import models
+
 
 class Faction(models.Model): #déclare la classe Livre héritant de la classe Model, classede base des modèles
 

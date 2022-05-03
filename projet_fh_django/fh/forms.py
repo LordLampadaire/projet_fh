@@ -1,10 +1,8 @@
 from django.forms import ModelForm
-from django.utils.translation import gettext_lazy as _
 from . import models
+from .models import Faction
+from django import forms
 class FactionForm(ModelForm):
     class Meta:
-        model = models.Faction
+        model = Faction
         fields = ('Nom',)
-        labels = {
-            'nom' : _('Nom de la faction'),
-        }

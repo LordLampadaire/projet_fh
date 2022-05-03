@@ -5,10 +5,10 @@
   <title>Title</title>
 </head>
 <body>
-  <form method="post" action=''>
+  <form method action="POST">
       {% csrf_token %}
 
-      {{ form.as_ul }} <!-- permet d'afficher tous les champs sous forme d'une liste-->
+      {{ form.as_ul }}
 
     <input type="submit" value="envoyer les données"\>
   </form>

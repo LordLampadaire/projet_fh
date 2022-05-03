@@ -1,8 +1,12 @@
+
 from django.shortcuts import render
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.http import HttpResponseRedirect
 from .forms import FactionForm
 from . import models
+from django import forms
 # Create your views here.
+
 def index(request):
     return render(request, 'fh/index.html')
 
