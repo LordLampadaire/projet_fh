@@ -32,4 +32,4 @@ def read(request, id):
 
 def show(request):
   faction = list(models.Faction.objects.all())
-  return render(request, 'index.html', {'faction': faction})
+  return render(request, 'fh/index.html', {'faction': faction})

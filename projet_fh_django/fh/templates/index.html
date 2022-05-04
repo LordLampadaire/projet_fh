@@ -15,8 +15,8 @@
         <tbody>
         {% for f in faction %}
         <tr>
-            <th><a href="/fh/read/{{f.id}}/">{{f.id}}</a></th>
-            <td>{{f.Nom}}</td>
+            <th><a href="/fh/read/{{f.id}}/">{{faction.id}}</a></th>
+            <td>{{faction.Nom}}</td>
             <td><a href="/fh/details/{{f.id}}/">Détails</a><td>
             <td><a href="/fh/update/{{f.id}}/">Modifier</a><td>
         </tr>

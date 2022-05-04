@@ -5,5 +5,5 @@ urlpatterns = [
     path('',views.index),
     path('ajout/',views.ajout),
     path('details/<int:id>/', views.read),
-    path('index/', views.index),
+    path('show/', views.show),
 ]
