@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="fonctionalité détails en +">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="jolie mise en forme du code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
@@ -206,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651683501373</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="jolie mise en forme du code">
+      <created>1651687509105</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651687509105</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +235,8 @@
     <MESSAGE value="tentative de débug" />
     <MESSAGE value="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne" />
     <MESSAGE value="fonctionalité détails en +" />
-    <option name="LAST_COMMIT_MESSAGE" value="fonctionalité détails en +" />
+    <MESSAGE value="jolie mise en forme du code" />
+    <option name="LAST_COMMIT_MESSAGE" value="jolie mise en forme du code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
