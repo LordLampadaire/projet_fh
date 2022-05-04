@@ -32,7 +32,7 @@ def details(request, id):
     return render(request, "fh/details.html", {"faction": faction})
 
 
-def delete(request,id):
+def delete(request, id):
     faction = models.Faction.objects.get(pk=id)
     faction.delete()
     return HttpResponseRedirect("/")

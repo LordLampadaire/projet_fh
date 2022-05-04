@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="jolie mise en forme du code">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="option supprimé en +">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651687509105</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="option supprimé en +">
+      <created>1651688960128</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651688960128</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +241,8 @@
     <MESSAGE value="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne" />
     <MESSAGE value="fonctionalité détails en +" />
     <MESSAGE value="jolie mise en forme du code" />
-    <option name="LAST_COMMIT_MESSAGE" value="jolie mise en forme du code" />
+    <MESSAGE value="option supprimé en +" />
+    <option name="LAST_COMMIT_MESSAGE" value="option supprimé en +" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
