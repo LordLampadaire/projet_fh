@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="tentative de débug">
-      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/index.html" afterDir="false" />
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651649630000</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne">
+      <created>1651682388041</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651682388041</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +219,8 @@
     <MESSAGE value="tentative N° je sais plus d'ajout + affichage" />
     <MESSAGE value="tentative N° 187477 d'ajout qui ne marche toujours pas" />
     <MESSAGE value="tentative de débug" />
-    <option name="LAST_COMMIT_MESSAGE" value="tentative de débug" />
+    <MESSAGE value="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne" />
+    <option name="LAST_COMMIT_MESSAGE" value="LEEEEEEEEEEEEES FUCKING GOOOOOOOOOOOO ajout et affiche fonctionne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -26,7 +26,7 @@ def ajout(request):
 
 
 
-def read(request, id):
+def details(request, id):
     faction = models.Faction.objects.get(pk=id)
     return render(request,"fh/details.html",{"faction": faction})
 
