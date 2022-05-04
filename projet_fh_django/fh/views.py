@@ -13,8 +13,10 @@ def index(request):
 def ajout(request):
     if request.method == "POST": # arrive en cas de retour sur cette page après une saisie invalide on récupère donc les données. Normalement nous ne devrions pas passer par ce chemin la pour le traitement des données
         form = FactionForm(request.POST)
+        print(1)
         if form.is_valid(): # validation du formulaire.
             faction = form.save() # sauvegarde dans la base
+            print(2)
             return render(request,"fh/index.html",{"faction" : faction}) # envoie vers une page d'affichage de la faction créé
         else:
             return render(request,"fh/ajout.html",{"form": form})

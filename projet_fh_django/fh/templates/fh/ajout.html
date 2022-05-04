@@ -5,7 +5,7 @@
   <title>Title</title>
 </head>
 <body>
-  <form action="/ajout/" method="POST">
+  <form method="post" action="/ajout/" >
       {% csrf_token %}
 
       {{ form.as_ul }}

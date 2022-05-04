@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="tentative N° je sais plus d'ajout + affichage">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="tentative N° 187477 d'ajout qui ne marche toujours pas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -165,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651602456089</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tentative N° 187477 d'ajout qui ne marche toujours pas">
+      <created>1651647458726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651647458726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +202,8 @@
     <MESSAGE value="fixation ajout" />
     <MESSAGE value="fichier" />
     <MESSAGE value="tentative N° je sais plus d'ajout + affichage" />
-    <option name="LAST_COMMIT_MESSAGE" value="tentative N° je sais plus d'ajout + affichage" />
+    <MESSAGE value="tentative N° 187477 d'ajout qui ne marche toujours pas" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentative N° 187477 d'ajout qui ne marche toujours pas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
