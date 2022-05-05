@@ -18,8 +18,7 @@ def ajout(request):
         form = FactionForm(request.POST)
         if form.is_valid():  # validation du formulaire.
             faction = form.save()  # sauvegarde dans la base
-            return render(request, "fh/index.html",
-                          {"faction": faction})  # envoie vers une page d'affichage de la faction créé
+            return HttpResponseRedirect("/")
         else:
             return render(request, "fh/ajout.html", {"form": form})
     else:
