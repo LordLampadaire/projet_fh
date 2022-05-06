@@ -8,3 +8,4 @@ class FactionForm(ModelForm):
     class Meta:
         model = models.Faction
         fields = ('Nom',)
+

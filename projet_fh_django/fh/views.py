@@ -36,3 +36,19 @@ def delete(request, id):
     faction.delete()
     return HttpResponseRedirect("/")
 
+
+def update(request, id):
+    faction = models.Faction.objects.get(pk = id)
+    form = FactionForm(faction.dico())
+    return render(request, "fh/update.html",{"form":form, "id": id})
+
+def updatetraitement(request, id):
+
+    fform = FactionForm(request.POST)
+    if fform.is_valid():
+        faction = fform.save(commit = False)
+        faction.id = id
+        faction.save()
+        return HttpResponseRedirect("/")
+    else:
+        return render(request, "fh/update.html", {"form": fform, "id" : id})

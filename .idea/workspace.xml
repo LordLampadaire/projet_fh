@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="fix ajout">
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651690506971</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix ajout">
+      <created>1651746168947</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651746168947</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +260,8 @@
     <MESSAGE value="fonctionalité détails en +" />
     <MESSAGE value="jolie mise en forme du code" />
     <MESSAGE value="option supprimé en +" />
-    <option name="LAST_COMMIT_MESSAGE" value="option supprimé en +" />
+    <MESSAGE value="fix ajout" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ajout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
