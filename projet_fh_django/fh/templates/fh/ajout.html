@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<form method="post" action="/ajout/">
+<form method=POST enctype="multipart/form-data" action="/ajout/">
     {% csrf_token %}
 
     {{ form.as_ul }}

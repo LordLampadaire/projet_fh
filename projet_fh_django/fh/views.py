@@ -15,7 +15,7 @@ def index(request):
 
 def ajout(request):
     if request.method == "POST":  # arrive en cas de retour sur cette page après une saisie invalide on récupère donc les données. Normalement nous ne devrions pas passer par ce chemin la pour le traitement des données
-        form = FactionForm(request.POST)
+        form = FactionForm(request.POST, request.FILES )
         if form.is_valid():  # validation du formulaire.
             faction = form.save()  # sauvegarde dans la base
             return HttpResponseRedirect("/")

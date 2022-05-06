@@ -10,6 +10,7 @@
     <thead>
     <tr>
         <th><abbr title="ID">ID</abbr></th>
+        <th>Image</th>
         <th>Nom</th>
     </tr>
     </thead>
@@ -17,13 +18,13 @@
     {% for f in faction %}
     <tr>
         <th>{{f.id}}</th>
+        {% if f.faction_image %}
+        <td><img src="{{ f.faction_image.url}}" width="200"></td>
+        {% endif %}
         <td>{{f.Nom}}</td>
-        <td><a href="/fh/details/{{f.id}}/">Détails</a>
-        <td>
-        <td><a href="/fh/update/{{f.id}}/">Modifier</a>
-        <td>
-        <td><a href="/fh/delete/{{f.id}}/">Supprimer</a>
-        <td>
+        <td><a href="/fh/details/{{f.id}}/">Détails</a></td>
+        <td><a href="/fh/update/{{f.id}}/">Modifier</a></td>
+        <td><a href="/fh/delete/{{f.id}}/">Supprimer</a></td>
     </tr>
     {% endfor %}
     </tbody>

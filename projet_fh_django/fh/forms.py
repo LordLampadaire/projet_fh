@@ -7,5 +7,9 @@ from django import forms
 class FactionForm(ModelForm):
     class Meta:
         model = models.Faction
-        fields = ('Nom',)
+        fields = ('Nom','faction_image')
+        labels = {
+            'Nom':'',
+            'faction_image':'',
+        }
 
