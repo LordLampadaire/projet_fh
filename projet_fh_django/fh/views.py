@@ -44,7 +44,7 @@ def update(request, id):
 
 def updatetraitement(request, id):
 
-    fform = FactionForm(request.POST)
+    fform = FactionForm(request.POST, request.FILES)
     if fform.is_valid():
         faction = fform.save(commit = False)
         faction.id = id
