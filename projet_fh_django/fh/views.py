@@ -80,12 +80,12 @@ def details_hero(request, id):
 def delete_hero(request, id):
     hero = models.Hero.objects.get(pk=id)
     hero.delete()
-    return HttpResponseRedirect("/")
+    return HttpResponseRedirect("/index_hero")
 
 
 def update_hero(request, id):
     hero = models.Hero.objects.get(pk = id)
-    form = FactionForm(hero.dico())
+    form = HeroForm(hero.dico())
     return render(request, "fh/update_hero.html",{"form":form, "id": id})
 
 def updatetraitement_hero(request, id):
@@ -95,6 +95,6 @@ def updatetraitement_hero(request, id):
         hero= fform.save(commit = False)
         hero.id = id
         hero.save()
-        return HttpResponseRedirect("/")
+        return HttpResponseRedirect("/index_hero")
     else:
         return render(request, "fh/update_hero.html", {"form": fform, "id" : id})

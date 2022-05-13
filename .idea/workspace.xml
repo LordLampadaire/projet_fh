@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="debut du nouveau crud pour la partie hero">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="fix de 2 3 truc">
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/migrations/0003_hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
@@ -49,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -266,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652449110343</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="debut du nouveau crud pour la partie hero">
+      <created>1652455071784</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455071784</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix de 2 3 truc">
+      <created>1652455109954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455109954</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +314,8 @@
     <MESSAGE value="possibilité d'ajouter une image au formulaire" />
     <MESSAGE value="nouveau formulaire" />
     <MESSAGE value="debut du nouveau crud pour la partie hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="debut du nouveau crud pour la partie hero" />
+    <MESSAGE value="fix de 2 3 truc" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix de 2 3 truc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
