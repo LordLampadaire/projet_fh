@@ -64,7 +64,7 @@ def ajout_hero(request):
         form = HeroForm(request.POST, request.FILES )
         if form.is_valid():  # validation du formulaire.
             hero = form.save()  # sauvegarde dans la base
-            return HttpResponseRedirect("/")
+            return HttpResponseRedirect("/index_hero")
         else:
             return render(request, "fh/ajout_hero.html", {"form": form})
     else:

@@ -25,8 +25,8 @@ class Faction(models.Model):  # déclare la classe Livre héritant de la classe 
 class Hero(models.Model):
     hero_img = models.ImageField(null=True, blank=True, upload_to="images/")
     Nom = models.CharField(max_length=100)
-    Type = forms.CharField(label='type',widget=forms.Select(choices=TYPE))
-    Difficulte = forms.CharField(label='difficulté',widget=forms.Select(choices=DIFF))
+    Type = models.CharField(max_length=10, choices=TYPE, default= 'facile')
+    Difficulte = models.CharField(max_length=15, choices=DIFF, default='gardien')
 
     def dico(self):
         return {"hero_img":self.hero_img, "Nom":self.Nom, "Type":self.Type, "Difficulte":self.Difficulte}
