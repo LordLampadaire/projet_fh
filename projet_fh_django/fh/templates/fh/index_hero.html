@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>TEST</h1>
+<table>
+    <thead>
+    <tr>
+        <th><abbr title="ID">ID</abbr></th>
+        <th>Image</th>
+        <th>Nom</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for f in faction %}
+    <tr>
+        <th>{{h.id}}</th>
+        {% if h.hero_img %}
+        <td><img src="{{ h.hero_img.url}}" width="200"></td>
+        {% endif %}
+        <td>{{h.Nom}}</td>
+        <td><a href="/fh/details/{{h.id}}/">Détails</a></td>
+        <td><a href="/fh/update/{{h.id}}/">Modifier</a></td>
+        <td><a href="/fh/delete/{{h.id}}/">Supprimer</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<li><a href="http://127.0.0.1:8000/ajout_hero/">ajouter un hero </a></li>
+
+</body>
+</html>

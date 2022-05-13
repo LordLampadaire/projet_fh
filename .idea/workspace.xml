@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="possibilité d'ajouter une image au formulaire">
-      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/migrations/0002_faction_faction_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet_fh_django/media/images/SOLAIRE.png" afterDir="false" />
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="nouveau formulaire">
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details_hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +58,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates" />
       <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
+      <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651846905818</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="nouveau formulaire">
+      <created>1652271211929</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652271211929</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +295,8 @@
     <MESSAGE value="fix ajout" />
     <MESSAGE value="mise en place de update" />
     <MESSAGE value="possibilité d'ajouter une image au formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="possibilité d'ajouter une image au formulaire" />
+    <MESSAGE value="nouveau formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouveau formulaire" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
