@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="fix index_hero.html + fix update_hero / details_hero / delete_hero">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="link entre les crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652468721947</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="link entre les crud">
+      <created>1652811379164</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652811379164</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +334,8 @@
     <MESSAGE value="debut du nouveau crud pour la partie hero" />
     <MESSAGE value="fix de 2 3 truc" />
     <MESSAGE value="fix index_hero.html + fix update_hero / details_hero / delete_hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix index_hero.html + fix update_hero / details_hero / delete_hero" />
+    <MESSAGE value="link entre les crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="link entre les crud" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
