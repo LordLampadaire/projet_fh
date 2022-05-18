@@ -28,7 +28,8 @@ def ajout(request):
 
 def details(request, id):
     faction = models.Faction.objects.get(pk=id)
-    return render(request, "fh/details.html", {"faction": faction})
+    liste = models.Hero.objects.filter(faction_id= id)
+    return render(request, "fh/details.html", {"faction": faction, "liste":liste})
 
 
 def delete(request, id):
@@ -59,17 +60,21 @@ def index_hero(request):
     return render(request, 'fh/index_hero.html', {'hero': hero})
 
 
-def ajout_hero(request):
+def ajout_hero(request,id):
     if request.method == "POST":  # arrive en cas de retour sur cette page après une saisie invalide on récupère donc les données. Normalement nous ne devrions pas passer par ce chemin la pour le traitement des données
         form = HeroForm(request.POST, request.FILES )
+        faction = models.Faction.objects.get(pk=id)
         if form.is_valid():  # validation du formulaire.
-            hero = form.save()  # sauvegarde dans la base
+            hero = form.save(commit=False)
+            hero.faction = faction
+            hero.faction_id = id
+            hero.save()
             return HttpResponseRedirect("/index_hero")
         else:
-            return render(request, "fh/ajout_hero.html", {"form": form})
+            return render(request, "fh/ajout_hero.html", {"form": form, "id":id})
     else:
         form = HeroForm()  # création d'un formulaire vide
-        return render(request, "fh/ajout_hero.html", {"form": form})
+        return render(request, "fh/ajout_hero.html", {"form": form, "id":id})
 
 
 def details_hero(request, id):

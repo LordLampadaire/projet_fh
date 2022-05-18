@@ -7,6 +7,13 @@
 <body>
 <h1>Détails de la faction</h1>
 <p>{{faction.Nom}} (ID: {{faction.id}})</p>
-<a>href = </a>
+<a href ="http://127.0.0.1:8000/ajout_hero/{{faction.id}}"> Ajouter un hero</a>
+
+<ol>
+    Liste des heros
+    {% for l in liste %}
+    <li>{{l.Nom}}</li>
+    {% endfor %}
+</ol>
 </body>
 </html>

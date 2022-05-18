@@ -17,12 +17,12 @@ class FactionForm(ModelForm):
 class HeroForm(ModelForm):
     class Meta:
         model = models.Hero
-        fields = ('hero_img', 'Nom', 'Type', 'Difficulte','faction')
+        fields = ('hero_img', 'Nom', 'Type', 'Difficulte',)
         labels = {
             'hero_img': 'Ajouter une image',
             'Nom': 'Nom du hero',
             'Type': 'Type du hero',
             'Difficulte': 'Difficulté du hero',
-            'Faction': 'Faction du hero',
+
 
         }

@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<form method=POST enctype="multipart/form-data" action="/ajout_hero/">
+<form method=POST enctype="multipart/form-data" action="/ajout_hero/{{id}}/">
     {% csrf_token %}
 
     {{ form.as_ul }}
