@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="mise en place du gabarit">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="GABARIT SUR TOUTE LES PAGES">
+      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/static/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details_hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652897788148</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="GABARIT SUR TOUTE LES PAGES">
+      <created>1652957722353</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1652957722353</updated>
+    </task>
+    <task id="LOCAL-00031" summary="GABARIT SUR TOUTE LES PAGES">
+      <created>1652957757043</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1652957757043</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +371,8 @@
     <MESSAGE value="link entre les crud" />
     <MESSAGE value="link entre les crud terminé" />
     <MESSAGE value="mise en place du gabarit" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en place du gabarit" />
+    <MESSAGE value="GABARIT SUR TOUTE LES PAGES" />
+    <option name="LAST_COMMIT_MESSAGE" value="GABARIT SUR TOUTE LES PAGES" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
