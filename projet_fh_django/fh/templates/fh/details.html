@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Details</title>
-</head>
-<body>
+{% extends "fh/main.html" %}
+{% block title %}
+Index du site
+{% endblock %}
+{% block content %}
 <h1>Détails de la faction</h1>
 <p>{{faction.Nom}} (ID: {{faction.id}})</p>
 <a href ="http://127.0.0.1:8000/ajout_hero/{{faction.id}}"> Ajouter un hero</a>
@@ -15,5 +13,4 @@
     <li>{{l.Nom}}</li>
     {% endfor %}
 </ol>
-</body>
-</html>
+{% endblock %}

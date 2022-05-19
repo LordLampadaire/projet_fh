@@ -9,8 +9,8 @@ class FactionForm(ModelForm):
         model = models.Faction
         fields = ('Nom','faction_image',)
         labels = {
-            'Nom':'',
-            'faction_image':'',
+            'Nom':'Nom de la faction',
+            'faction_image':'Image de la faction',
 
         }
 

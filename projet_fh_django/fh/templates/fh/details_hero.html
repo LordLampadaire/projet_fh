@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Details</title>
-</head>
-<body>
+{% extends "fh/main.html" %}
+{% block title %}
+Index du site
+{% endblock %}
+{% block content %}
 <h1>Détails du hero</h1>
 <p>{{hero.Nom}} </p>
 <p>{{hero.Type}}</p>
 <p>{{hero.Difficulte}}</p>
 <p>ID: {{hero.id}}</p>
 
-</body>
-</html>
+{% endblock %}

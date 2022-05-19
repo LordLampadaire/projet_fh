@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" afterDir="false" />
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="mise en place du gabarit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details_hero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index_hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +54,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
@@ -304,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652872029269</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="link entre les crud terminé">
+      <created>1652897694112</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652897694112</updated>
+    </task>
+    <task id="LOCAL-00029" summary="mise en place du gabarit">
+      <created>1652897788148</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1652897788148</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +363,8 @@
     <MESSAGE value="fix index_hero.html + fix update_hero / details_hero / delete_hero" />
     <MESSAGE value="link entre les crud" />
     <MESSAGE value="link entre les crud terminé" />
-    <option name="LAST_COMMIT_MESSAGE" value="link entre les crud terminé" />
+    <MESSAGE value="mise en place du gabarit" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en place du gabarit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

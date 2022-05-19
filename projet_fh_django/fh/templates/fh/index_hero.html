@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>index</title>
-</head>
-<body>
+{% extends "fh/main.html" %}
+{% block title %}
+Index du site
+{% endblock %}
+{% block content %}
 <h1>Liste de tout les heros du jeux </h1>
 <table>
     <thead>
@@ -32,5 +30,4 @@
 <li><a href="http://127.0.0.1:8000/">retour au menu des factions </a></li>
 
 
-</body>
-</html>
+{% endblock %}
