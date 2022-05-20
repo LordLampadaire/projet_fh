@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="ajout du css">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="mise en forme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652983351000</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="mise en forme">
+      <created>1653029876661</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653029876661</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="création + mise en place du socle" />
     <MESSAGE value="ajout de ficjier manquant" />
     <MESSAGE value="mise en place arrivé sur index" />
     <MESSAGE value="tentative d'ajout + affiche de ajout" />
@@ -379,7 +384,8 @@
     <MESSAGE value="mise en place du gabarit" />
     <MESSAGE value="GABARIT SUR TOUTE LES PAGES" />
     <MESSAGE value="ajout du css" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout du css" />
+    <MESSAGE value="mise en forme" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en forme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
