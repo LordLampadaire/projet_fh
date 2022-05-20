@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="GABARIT SUR TOUTE LES PAGES">
-      <change afterPath="$PROJECT_DIR$/projet_fh_django/fh/static/base.css" afterDir="false" />
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="ajout du css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/ajout_hero.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652957757043</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ajout du css">
+      <created>1652983351000</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1652983351000</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +378,8 @@
     <MESSAGE value="link entre les crud terminé" />
     <MESSAGE value="mise en place du gabarit" />
     <MESSAGE value="GABARIT SUR TOUTE LES PAGES" />
-    <option name="LAST_COMMIT_MESSAGE" value="GABARIT SUR TOUTE LES PAGES" />
+    <MESSAGE value="ajout du css" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout du css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
