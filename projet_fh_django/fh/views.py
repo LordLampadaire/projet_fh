@@ -1,9 +1,7 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 from django.http import HttpResponseRedirect
+from django.shortcuts import render
+
 from .forms import *
-from . import models
-from django import forms
 
 
 # Create your views here.
@@ -15,7 +13,7 @@ def index(request):
 
 def ajout(request):
     if request.method == "POST":  # arrive en cas de retour sur cette page après une saisie invalide on récupère donc les données. Normalement nous ne devrions pas passer par ce chemin la pour le traitement des données
-        form = FactionForm(request.POST, request.FILES )
+        form = FactionForm(request.POST, request.FILES)
         if form.is_valid():  # validation du formulaire.
             faction = form.save()  # sauvegarde dans la base
             return HttpResponseRedirect("/")
@@ -28,8 +26,8 @@ def ajout(request):
 
 def details(request, id):
     faction = models.Faction.objects.get(pk=id)
-    liste = models.Hero.objects.filter(faction_id= id)
-    return render(request, "fh/details.html", {"faction": faction, "liste":liste})
+    liste = models.Hero.objects.filter(faction_id=id)
+    return render(request, "fh/details.html", {"faction": faction, "liste": liste})
 
 
 def delete(request, id):
@@ -39,20 +37,20 @@ def delete(request, id):
 
 
 def update(request, id):
-    faction = models.Faction.objects.get(pk = id)
+    faction = models.Faction.objects.get(pk=id)
     form = FactionForm(faction.dico())
-    return render(request, "fh/update.html",{"form":form, "id": id})
+    return render(request, "fh/update.html", {"form": form, "id": id})
+
 
 def updatetraitement(request, id):
-
     fform = FactionForm(request.POST, request.FILES)
     if fform.is_valid():
-        faction = fform.save(commit = False)
+        faction = fform.save(commit=False)
         faction.id = id
         faction.save()
         return HttpResponseRedirect("/")
     else:
-        return render(request, "fh/update.html", {"form": fform, "id" : id})
+        return render(request, "fh/update.html", {"form": fform, "id": id})
 
 
 def index_hero(request):
@@ -60,9 +58,9 @@ def index_hero(request):
     return render(request, 'fh/index_hero.html', {'hero': hero})
 
 
-def ajout_hero(request,id):
+def ajout_hero(request, id):
     if request.method == "POST":  # arrive en cas de retour sur cette page après une saisie invalide on récupère donc les données. Normalement nous ne devrions pas passer par ce chemin la pour le traitement des données
-        form = HeroForm(request.POST, request.FILES )
+        form = HeroForm(request.POST, request.FILES)
         faction = models.Faction.objects.get(pk=id)
         if form.is_valid():  # validation du formulaire.
             hero = form.save(commit=False)
@@ -71,14 +69,14 @@ def ajout_hero(request,id):
             hero.save()
             return HttpResponseRedirect("/index_hero")
         else:
-            return render(request, "fh/ajout_hero.html", {"form": form, "id":id})
+            return render(request, "fh/ajout_hero.html", {"form": form, "id": id})
     else:
         form = HeroForm()  # création d'un formulaire vide
-        return render(request, "fh/ajout_hero.html", {"form": form, "id":id})
+        return render(request, "fh/ajout_hero.html", {"form": form, "id": id})
 
 
 def details_hero(request, id):
-    hero= models.Hero.objects.get(pk=id)
+    hero = models.Hero.objects.get(pk=id)
     return render(request, "fh/details_hero.html", {"hero": hero})
 
 
@@ -89,15 +87,15 @@ def delete_hero(request, id):
 
 
 def update_hero(request, id):
-    hero = models.Hero.objects.get(pk = id)
+    hero = models.Hero.objects.get(pk=id)
     form = HeroForm(hero.dico())
-    return render(request, "fh/update_hero.html",{"form":form, "id": id})
+    return render(request, "fh/update_hero.html", {"form": form, "id": id})
+
 
 def updatetraitement_hero(request, id):
-
     fform = HeroForm(request.POST, request.FILES)
     if fform.is_valid():
-        hero= fform.save(commit = False)
+        hero = fform.save(commit=False)
         hero.id = id
         hero.save()
         return HttpResponseRedirect("/index_hero")

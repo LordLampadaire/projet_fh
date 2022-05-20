@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="mise en forme">
+    <list default="true" id="0f19a201-475b-422a-a6a1-203d5cdd95ec" name="Changes" comment="mise en forme+">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/templates/fh/update_hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet_fh_django/fh/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projet_fh_django/fh/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +46,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projet_fh_django/fh/templates/fh" />
@@ -345,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653029876661</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="mise en forme+">
+      <created>1653031370982</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653031370982</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ajout de ficjier manquant" />
     <MESSAGE value="mise en place arrivé sur index" />
     <MESSAGE value="tentative d'ajout + affiche de ajout" />
     <MESSAGE value="fixation ajout" />
@@ -385,7 +393,8 @@
     <MESSAGE value="GABARIT SUR TOUTE LES PAGES" />
     <MESSAGE value="ajout du css" />
     <MESSAGE value="mise en forme" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en forme" />
+    <MESSAGE value="mise en forme+" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en forme+" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
